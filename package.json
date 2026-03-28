@@ -1,0 +1,40 @@
+{
+  "name": "social_media",
+  "version": "1.0.0",
+  "description": "Social Media Channels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "shopify:sync": "node scripts/sync.js --all",
+    "shopify:products": "node scripts/sync.js --products",
+    "shopify:orders": "node scripts/sync.js --orders",
+    "shopify:reviews": "node scripts/sync.js --reviews",
+    "google:sync": "node scripts/google-ads-sync.js --all",
+    "google:setup": "node scripts/google-setup.js",
+    "google:drive": "node scripts/google-drive.js",
+    "google:calendar": "node scripts/google-calendar.js",
+    "google:mail": "node scripts/google-mail.js",
+    "google:reviews": "node scripts/google-reviews.js",
+    "google:sync-context": "node scripts/google-calendar.js --sync-to-context && node scripts/google-reviews.js --sync",
+    "google:sync-assets": "node scripts/google-drive.js --sync-from-drive",
+    "tiktok:sync": "node scripts/tiktok-sync.js --all",
+    "meta:sync": "node scripts/meta-sync.js --all",
+    "meta:test": "node scripts/meta-test.js",
+    "ads:inspiration": "node scripts/meta-ads-library.js",
+    "sync:all": "node scripts/sync.js --all && node scripts/google-ads-sync.js --all && node scripts/tiktok-sync.js --all && node scripts/meta-sync.js --all",
+    "bot": "node scripts/telegram-bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:44119/git/greenfutureopenclaw/social_media"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vishalgojha/social-flow": "github:vishalgojha/social-flow",
+    "adcontextprotocol": "github:adcontextprotocol/adcp",
+    "@anthropic-ai/sdk": "^0.79.0",
+    "telegraf": "^4.16.3"
+  }
+}

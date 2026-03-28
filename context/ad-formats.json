@@ -1,0 +1,184 @@
+{
+  "formats": [
+    {
+      "id": "ugc-talking-head",
+      "name": "UGC Talking Head",
+      "category": "video",
+      "description": "Creator speaks directly to camera sharing personal experience with the product.",
+      "visual_rules": "Single person, phone-quality footage, natural lighting, casual setting (bathroom, bedroom, kitchen). No studio lighting. Text overlay with hook at top.",
+      "copy_guidelines": "Conversational, first-person. Start with a personal story or hot take. Use contractions and fragments. End with genuine recommendation, not hard sell.",
+      "best_for": ["social proof", "authenticity", "trust building"]
+    },
+    {
+      "id": "ugc-voiceover",
+      "name": "UGC Voiceover + B-Roll",
+      "category": "video",
+      "description": "Voiceover narration over product b-roll, application footage, and lifestyle shots.",
+      "visual_rules": "Close-up product shots, hands applying product, texture shots, lifestyle b-roll. Fast cuts (1-2s each). Text overlays reinforcing key points.",
+      "copy_guidelines": "Storytelling arc: problem → discovery → result. Voiceover sounds natural, not scripted. Include specific details (timeframes, before/after).",
+      "best_for": ["product demonstration", "transformation stories", "educational"]
+    },
+    {
+      "id": "bold-billboard",
+      "name": "Bold Billboard",
+      "category": "static",
+      "description": "Large bold headline with minimal supporting text and a product image. High contrast, clean layout.",
+      "visual_rules": "1-2 colors max. Headline takes 60%+ of visual space. Product image sharp and prominent. Minimal elements — whitespace is a feature. Sans-serif bold font.",
+      "copy_guidelines": "Headline: 3-6 words maximum. One supporting line if needed. CTA as button or badge. No paragraphs.",
+      "best_for": ["brand awareness", "bold claims", "new launches"]
+    },
+    {
+      "id": "testimonial-card",
+      "name": "Testimonial Card",
+      "category": "static",
+      "description": "Customer quote as the hero element with star rating, product image, and attribution.",
+      "visual_rules": "Quote in large text with quotation marks. Star rating (4.5-5 stars). Small product image. Customer first name + detail (age, location). Soft background color.",
+      "copy_guidelines": "Use exact customer language — don't clean up grammar. Pick quotes with specific outcomes, not generic praise. Attribution adds credibility.",
+      "best_for": ["social proof", "trust", "overcoming objections"]
+    },
+    {
+      "id": "before-after",
+      "name": "Before / After",
+      "category": "static",
+      "description": "Side-by-side or top-bottom comparison showing transformation.",
+      "visual_rules": "Split layout: clear before (left/top) and after (right/bottom). Same lighting and angle in both. Labels: 'Before' and 'After' or timeframe ('Day 1' / 'Day 30'). Divider line between panels.",
+      "copy_guidelines": "Minimal text — the visual does the work. Add timeframe and product name. Optional: one-line testimonial quote below.",
+      "best_for": ["transformation proof", "visual results", "skeptic conversion"]
+    },
+    {
+      "id": "listicle",
+      "name": "Listicle / Reasons Why",
+      "category": "static",
+      "description": "Numbered list of reasons, benefits, or ingredients with supporting visuals.",
+      "visual_rules": "Numbered items (3-5). Each with icon or small image. Clean alignment. Brand colors for numbers/icons. Product image at bottom or side.",
+      "copy_guidelines": "Each point: benefit-first, 5-10 words. Lead with the most compelling reason. Last point = CTA-adjacent (e.g., '5. Try it risk-free').",
+      "best_for": ["education", "feature stacking", "comparison"]
+    },
+    {
+      "id": "problem-solution",
+      "name": "Problem → Solution",
+      "category": "static",
+      "description": "Two-panel layout: top shows the problem (pain), bottom shows the solution (product).",
+      "visual_rules": "Top panel: muted/desaturated, problem imagery or frustrated expression. Bottom panel: vibrant, product hero shot, satisfied expression. Arrow or transition element between panels.",
+      "copy_guidelines": "Top: name the pain in audience's language. Bottom: product as the answer. Keep copy short — the contrast does the persuasion.",
+      "best_for": ["problem-aware audiences", "pain point targeting", "direct response"]
+    },
+    {
+      "id": "ingredient-spotlight",
+      "name": "Ingredient Spotlight",
+      "category": "static",
+      "description": "Single hero ingredient with percentage, benefit, and clinical backing.",
+      "visual_rules": "Ingredient close-up or macro shot as background. Large percentage or dosage number. Product shown with ingredient highlighted. Clean, clinical aesthetic.",
+      "copy_guidelines": "Lead with the ingredient and its percentage. One sentence on mechanism (what it does). One line of proof (clinical study, dermatologist endorsement). Avoid jargon — explain in plain language.",
+      "best_for": ["researcher persona", "ingredient-conscious buyers", "differentiation"]
+    },
+    {
+      "id": "carousel-education",
+      "name": "Educational Carousel",
+      "category": "carousel",
+      "description": "Multi-slide educational content that teaches while selling. Each slide builds on the last.",
+      "visual_rules": "Consistent template across slides. Slide 1 = hook headline. Slides 2-4 = teaching points. Final slide = product CTA. Same colors, fonts, layout per slide. Swipe indicator on slide 1.",
+      "copy_guidelines": "Slide 1: curiosity hook or myth-busting headline. Middle slides: one point per slide, short text. Final slide: product as the solution to what you just learned.",
+      "best_for": ["education", "building authority", "organic + paid hybrid"]
+    },
+    {
+      "id": "us-vs-them",
+      "name": "Us vs. Them Comparison",
+      "category": "static",
+      "description": "Two-column comparison: your product vs. generic/competitor alternative.",
+      "visual_rules": "Two columns: left = competitor (grey, dull, X marks), right = your brand (brand colors, check marks). Your product elevated, competitor diminished. Clean table or side-by-side format.",
+      "copy_guidelines": "Compare on 4-6 specific attributes. Use check/X marks. Don't name competitors directly — use 'typical [category]' or 'other brands.' Win on every row.",
+      "best_for": ["differentiation", "competitive positioning", "price justification"]
+    },
+    {
+      "id": "unboxing-reveal",
+      "name": "Unboxing / Product Reveal",
+      "category": "video",
+      "description": "Hands opening packaging, revealing product with ASMR-quality close-ups.",
+      "visual_rules": "Overhead or 45-degree angle. Clean surface (marble, wood). Slow, deliberate movements. Close-ups of packaging details, textures. Natural lighting preferred.",
+      "copy_guidelines": "Minimal voiceover — let visuals speak. Text overlays for key product facts. End with product in-use or application shot. Hook: 'Wait for it' or 'The packaging alone...'",
+      "best_for": ["premium positioning", "gifting", "first impression"]
+    },
+    {
+      "id": "founder-story",
+      "name": "Founder Story",
+      "category": "video",
+      "description": "Brand founder speaks about why they created the product — personal, authentic, mission-driven.",
+      "visual_rules": "Founder on camera, casual but intentional setting (office, lab, kitchen). Mix talking head with product b-roll and behind-the-scenes footage. Lower third with name/title.",
+      "copy_guidelines": "Personal narrative: I had this problem → nothing worked → I built this. Emotion-driven, not feature-driven. End with invitation, not hard sell.",
+      "best_for": ["brand story", "trust building", "premium justification"]
+    },
+    {
+      "id": "tutorial-how-to",
+      "name": "Tutorial / How-To",
+      "category": "video",
+      "description": "Step-by-step demonstration of how to use the product for best results.",
+      "visual_rules": "Numbered steps with text overlays. Close-up application shots. Clean, well-lit setting. Timer or progress indicator optional. Before state → application → after state.",
+      "copy_guidelines": "Step 1, Step 2, Step 3 format. Keep each step to one sentence. Add a pro tip. End with result shot and CTA.",
+      "best_for": ["product education", "reducing purchase anxiety", "routine integration"]
+    },
+    {
+      "id": "social-proof-mashup",
+      "name": "Social Proof Mashup",
+      "category": "video",
+      "description": "Rapid montage of customer testimonials, reviews, results, and reactions.",
+      "visual_rules": "Fast cuts (1-2s each) of different customers. Mix: selfie videos, text screenshots, before/afters, star ratings. Text overlay count: '10,000+ customers.' Energetic pacing.",
+      "copy_guidelines": "Minimal scripted copy. Let real customer clips and quotes carry it. Open with volume stat ('Join 50,000+ women who...') or reaction ('Everyone keeps asking what I use').",
+      "best_for": ["mass social proof", "FOMO", "conversion campaigns"]
+    },
+    {
+      "id": "meme-native",
+      "name": "Meme / Native Content",
+      "category": "static",
+      "description": "Ad disguised as organic meme or relatable content. Blends into feed.",
+      "visual_rules": "Looks like organic content, not an ad. Meme format, screenshot aesthetic, or text-post style. Minimal branding (small logo if any). Platform-native fonts and spacing.",
+      "copy_guidelines": "Relatable observation or joke about the audience's pain point. Product mention feels incidental, not forced. Comments-section energy. Self-aware humor OK.",
+      "best_for": ["cold audiences", "stopping the scroll", "top of funnel"]
+    },
+    {
+      "id": "offer-urgency",
+      "name": "Limited-Time Offer",
+      "category": "static",
+      "description": "Direct response ad with clear offer, discount, and urgency mechanism.",
+      "visual_rules": "Bold offer text (e.g., '40% OFF'). Countdown or 'ends tonight' badge. Product image with price strikethrough. High contrast CTA button. Urgency colors (red, orange accents).",
+      "copy_guidelines": "Lead with the offer, not the product. Include original price → sale price. Scarcity element: limited stock, limited time, or exclusive access. Clear CTA: 'Shop Now' or 'Claim Your Discount.'",
+      "best_for": ["bottom of funnel", "retargeting", "flash sales", "BFCM"]
+    },
+    {
+      "id": "email-hero",
+      "name": "Email Hero Banner",
+      "category": "email",
+      "description": "Email header image with bold headline and CTA button. Designed for Klaviyo, Mailchimp, or any ESP.",
+      "visual_rules": "600px wide (email standard). Bold headline centered. Product image or lifestyle shot as background. CTA button below headline in brand primary color. Keep under 100KB for deliverability.",
+      "copy_guidelines": "Headline: 5-8 words maximum, matches the email subject line hook. CTA button: 2-3 action words ('Shop the Sale', 'Get Yours'). No body text in the image — that goes in the email copy.",
+      "best_for": ["email campaigns", "product launches", "promotions", "welcome series"]
+    },
+    {
+      "id": "pinterest-pin",
+      "name": "Pinterest Pin",
+      "category": "static",
+      "description": "Vertical lifestyle pin optimized for Pinterest discovery. Aspirational imagery with subtle text overlay.",
+      "visual_rules": "1000x1500px (2:3 ratio). Lifestyle imagery dominates — product in context, not on white background. Text overlay: subtle, max 50 characters, positioned top or bottom. Warm, aspirational color palette. Brand logo small and unobtrusive.",
+      "copy_guidelines": "Text overlay is optional but should be inspirational/aspirational, not salesy. Pin description (separate): 100-200 chars with relevant search keywords. Avoid hashtags — Pinterest uses keyword-based discovery. Speak to aspiration, not pain.",
+      "best_for": ["discovery", "lifestyle brands", "gifting", "aspirational positioning"]
+    },
+    {
+      "id": "tiktok-spark",
+      "name": "TikTok Spark Ad Card",
+      "category": "static",
+      "description": "Static creative brief card for TikTok Spark Ads — the creative direction document for a creator-led ad.",
+      "visual_rules": "9:16 vertical (1080x1920). Designed to look native to TikTok — not polished. Phone-quality aesthetic. Bold text overlays in TikTok-style fonts (white text, black outline). Product shown in-use, not packaged.",
+      "copy_guidelines": "Hook text: 1 sentence, designed to feel like organic TikTok content. No brand voice — use creator voice. Conversational, imperfect grammar OK. CTA feels like a recommendation ('this is the one'), not a sales pitch.",
+      "best_for": ["TikTok ads", "creator partnerships", "cold audiences", "Gen Z targeting"]
+    },
+    {
+      "id": "google-responsive",
+      "name": "Google Responsive Display Ad",
+      "category": "google",
+      "description": "Asset set for Google responsive display ads — multiple headlines, descriptions, and image specs.",
+      "visual_rules": "Landscape image: 1200x628. Square image: 1200x1200. Logo: 1200x1200 (square) and 1200x300 (landscape). All images must work without text overlay (Google may add its own). Clean, uncluttered product shots.",
+      "copy_guidelines": "Short headlines: 30 chars max (5 variations). Long headline: 90 chars max (1 variation). Descriptions: 90 chars max (5 variations). Business name: 25 chars. Headlines should work independently — Google mixes and matches.",
+      "best_for": ["Google Display Network", "retargeting", "brand awareness", "cross-platform reach"]
+    }
+  ]
+}
